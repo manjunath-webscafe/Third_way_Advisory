@@ -8,7 +8,7 @@ export default function Verticals() {
   const current = verticals.find((v) => v.id === active)
 
   return (
-    <section id="verticals" ref={ref} className="py-24 md:py-32 bg-platinum">
+    <section id="verticals" ref={ref} className="py-24 md:py-32 bg-platinum min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="max-w-2xl reveal">
           <p className="eyebrow mb-5">Our Verticals</p>

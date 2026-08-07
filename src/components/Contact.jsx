@@ -13,7 +13,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" ref={ref} className="py-24 md:py-32 bg-navy text-white">
+    <section id="contact" ref={ref} className="py-24 md:py-32 bg-navy text-white min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="grid lg:grid-cols-12 gap-14">
           <div className="lg:col-span-5 reveal">

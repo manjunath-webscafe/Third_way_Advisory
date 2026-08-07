@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import { footer, nav } from '../data/content'
+import logo from '../assets/logo-white.png'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -8,14 +10,9 @@ export default function Footer() {
       <div className="container">
         <div className="grid md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
           <div className="md:col-span-5">
-            <a href="#top" className="flex items-center gap-2.5">
-              <span className="w-9 h-9 rounded-sm border border-gold-400/60 flex items-center justify-center font-display text-gold-400 text-lg">
-                W
-              </span>
-              <span className="font-display text-[1.05rem] text-white">
-                Third Wave <span className="text-gold-400">Advisory</span>
-              </span>
-            </a>
+            <Link to="/" className="flex items-center">
+              <img src={logo} alt="Third Way Advisory" className="h-20 w-auto" />
+            </Link>
             <p className="mt-5 text-sm leading-relaxed max-w-xs">{footer.tagline}</p>
             <p className="mt-4 text-xs uppercase tracking-wide text-white/35">{footer.city}</p>
           </div>
@@ -25,9 +22,9 @@ export default function Footer() {
             <ul className="space-y-3">
               {nav.slice(0, 5).map((item) => (
                 <li key={item.href}>
-                  <a href={item.href} className="text-sm hover:text-gold-400 transition-colors">
+                  <Link to={item.href} className="text-sm hover:text-gold-400 transition-colors">
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -38,14 +35,14 @@ export default function Footer() {
             <ul className="space-y-3">
               {nav.slice(5).map((item) => (
                 <li key={item.href}>
-                  <a href={item.href} className="text-sm hover:text-gold-400 transition-colors">
+                  <Link to={item.href} className="text-sm hover:text-gold-400 transition-colors">
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <li>
-                <a href="mailto:advisory@thirdwave.com" className="text-sm hover:text-gold-400 transition-colors">
-                  advisory@thirdwave.com
+                <a href="mailto:advisory@thirdway.com" className="text-sm hover:text-gold-400 transition-colors">
+                  advisory@thirdway.com
                 </a>
               </li>
             </ul>

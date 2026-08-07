@@ -1,4 +1,4 @@
-# Third Wave Advisory — Corporate Website
+# Third Way Advisory — Corporate Website
 
 A premium, JLL-inspired (not copied) corporate advisory website built with **React + Vite + Tailwind CSS**, sourced entirely from the client-provided copy deck.
 
@@ -33,7 +33,7 @@ The client deck marks the following as placeholders — swap these before going 
 - Leadership: partner names, years of experience, prior titles, degrees
 - Headquarters: building/business park name, floor & suite number
 - Corporate office phone number
-- Careers inbox is set to `careers@thirdwave.com`; confirm this is the live address
+- Careers inbox is set to `careers@thirdway.com`; confirm this is the live address
 - Hero, About, Leadership, and Careers imagery currently uses royalty-free Unsplash placeholders — replace with licensed, brand-shot photography (boardrooms, skylines, portraits) per the visual direction notes in the deck
 
 ## SEO checklist (from the deck)

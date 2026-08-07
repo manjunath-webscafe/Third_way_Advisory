@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { insights } from '../data/content'
 import useReveal from '../hooks/useReveal'
 
@@ -5,7 +6,7 @@ export default function Insights() {
   const ref = useReveal()
 
   return (
-    <section id="insights" ref={ref} className="py-24 md:py-32 bg-white">
+    <section id="insights" ref={ref} className="py-24 md:py-32 bg-white min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 reveal">
           <div className="max-w-2xl">
@@ -20,9 +21,9 @@ export default function Insights() {
               <p className="text-[11px] tracking-widest2 uppercase text-navy/50 font-semibold mb-6">{cat.label}</p>
               <div className="space-y-5">
                 {cat.items.map((item) => (
-                  <a
+                  <Link
                     key={item.title}
-                    href="#contact"
+                    to="/contact"
                     className="group flex items-start justify-between gap-4 border-t border-navy/10 pt-5 first:border-t-0 first:pt-0"
                   >
                     <div>
@@ -34,7 +35,7 @@ export default function Insights() {
                     <span className="mt-1 flex-shrink-0 text-navy/30 group-hover:text-gold-500 group-hover:translate-x-1 transition-all duration-300">
                       &rarr;
                     </span>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>

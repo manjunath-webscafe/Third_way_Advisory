@@ -5,7 +5,7 @@ export default function Careers() {
   const ref = useReveal()
 
   return (
-    <section id="careers" ref={ref} className="py-24 md:py-32 bg-platinum">
+    <section id="careers" ref={ref} className="py-24 md:py-32 bg-platinum min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="grid lg:grid-cols-12 gap-14 items-start">
           <div className="lg:col-span-5 reveal">

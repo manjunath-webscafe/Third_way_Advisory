@@ -1,11 +1,12 @@
 import { about } from '../data/content'
 import useReveal from '../hooks/useReveal'
+import aboutImage from '../assets/about.jpg'
 
 export default function About() {
   const ref = useReveal()
 
   return (
-    <section id="about" ref={ref} className="py-24 md:py-32 bg-white">
+    <section id="about" ref={ref} className="py-24 md:py-32 bg-white min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="grid lg:grid-cols-12 gap-14 items-start">
           <div className="lg:col-span-5 reveal">
@@ -28,7 +29,7 @@ export default function About() {
           <div className="lg:col-span-7">
             <div className="reveal reveal-delay-1 relative rounded-sm overflow-hidden aspect-[4/3] mb-10 shadow-card">
               <img
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2200&auto=format&fit=crop"
+                src={aboutImage}
                 alt="Senior advisory partners in a boardroom discussion, reviewing institutional strategy documents"
                 className="w-full h-full object-cover"
                 loading="lazy"

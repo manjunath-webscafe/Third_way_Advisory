@@ -42,16 +42,18 @@ select:focus-visible {
 .reveal-delay-3 { transition-delay: 0.24s; }
 .reveal-delay-4 { transition-delay: 0.32s; }
 
-.eyebrow {
-  @apply text-[11px] tracking-widest2 uppercase text-gold-500 font-semibold;
-}
+@layer components {
+  .eyebrow {
+    @apply text-[11px] tracking-widest2 uppercase text-gold-500 font-semibold;
+  }
 
-.section-heading {
-  @apply font-display text-[2rem] leading-[1.15] sm:text-4xl md:text-[2.75rem] text-navy font-semibold;
-}
+  .section-heading {
+    @apply font-display text-[2rem] leading-[1.15] sm:text-4xl md:text-[2.75rem] text-navy font-semibold;
+  }
 
-.hairline {
-  @apply border-t border-navy/10;
+  .hairline {
+    @apply border-t border-navy/10;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,29 +1,34 @@
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Verticals from './components/Verticals'
-import Approach from './components/Approach'
-import Leadership from './components/Leadership'
-import Associates from './components/Associates'
-import Insights from './components/Insights'
-import Careers from './components/Careers'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import Home from './pages/Home'
+import AboutPage from './pages/AboutPage'
+import VerticalsPage from './pages/VerticalsPage'
+import ApproachPage from './pages/ApproachPage'
+import LeadershipPage from './pages/LeadershipPage'
+import AssociatesPage from './pages/AssociatesPage'
+import InsightsPage from './pages/InsightsPage'
+import CareersPage from './pages/CareersPage'
+import ContactPage from './pages/ContactPage'
 
 export default function App() {
   return (
     <div className="min-h-screen">
+      <ScrollToTop />
       <Navbar />
       <main>
-        <Hero />
-        <About />
-        <Verticals />
-        <Approach />
-        <Leadership />
-        <Associates />
-        <Insights />
-        <Careers />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/verticals" element={<VerticalsPage />} />
+          <Route path="/approach" element={<ApproachPage />} />
+          <Route path="/leadership" element={<LeadershipPage />} />
+          <Route path="/associates" element={<AssociatesPage />} />
+          <Route path="/insights" element={<InsightsPage />} />
+          <Route path="/careers" element={<CareersPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </main>
       <Footer />
     </div>

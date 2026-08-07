@@ -22,7 +22,7 @@ export default function Approach() {
   const ref = useReveal()
 
   return (
-    <section id="approach" ref={ref} className="py-24 md:py-32 bg-navy relative overflow-hidden">
+    <section id="approach" ref={ref} className="py-24 md:py-32 bg-navy relative overflow-hidden min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
         <img
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2400&auto=format&fit=crop"

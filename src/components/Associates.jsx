@@ -29,7 +29,7 @@ export default function Associates() {
   const ref = useReveal()
 
   return (
-    <section id="associates" ref={ref} className="py-24 md:py-32 bg-platinum">
+    <section id="associates" ref={ref} className="py-24 md:py-32 bg-platinum min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-16">
           <Block data={associates.partners} delayBase={0} />

@@ -10,7 +10,7 @@ export default function Leadership() {
   const ref = useReveal()
 
   return (
-    <section id="leadership" ref={ref} className="py-24 md:py-32 bg-white">
+    <section id="leadership" ref={ref} className="py-24 md:py-32 bg-white min-h-[calc(100vh-76px)] flex flex-col justify-center">
       <div className="container">
         <div className="max-w-2xl reveal">
           <p className="eyebrow mb-5">{leadership.eyebrow}</p>

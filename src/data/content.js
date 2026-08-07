@@ -3,22 +3,22 @@
 // website sections without altering meaning.
 
 export const nav = [
-  { label: 'About', href: '#about' },
-  { label: 'Verticals', href: '#verticals' },
-  { label: 'Approach', href: '#approach' },
-  { label: 'Leadership', href: '#leadership' },
-  { label: 'Associates', href: '#associates' },
-  { label: 'Insights', href: '#insights' },
-  { label: 'Careers', href: '#careers' },
-  { label: 'Contact', href: '#contact' }
+  { label: 'About', href: '/about' },
+  { label: 'Verticals', href: '/verticals' },
+  { label: 'Approach', href: '/approach' },
+  { label: 'Leadership', href: '/leadership' },
+  { label: 'Associates', href: '/associates' },
+  { label: 'Insights', href: '/insights' },
+  { label: 'Careers', href: '/careers' },
+  { label: 'Contact', href: '/contact' }
 ]
 
 export const hero = {
   eyebrow: 'Strategic Advisory House — Bengaluru, Karnataka',
   headline: 'Empowering Visionary Growth',
-  sub: 'Third Wave Advisory is a premier Strategic Advisory House. We guide elite enterprises through complex regulatory landscapes and financial ecosystems.',
-  ctaPrimary: { label: 'Partner With Us', href: '#contact' },
-  ctaSecondary: { label: 'Explore Our Verticals', href: '#verticals' },
+  sub: 'Third Way Advisory is a premier Strategic Advisory House. We guide elite enterprises through complex regulatory landscapes and financial ecosystems.',
+  ctaPrimary: { label: 'Partner With Us', href: '/contact' },
+  ctaSecondary: { label: 'Explore Our Verticals', href: '/verticals' },
   stats: [
     { value: 4, suffix: '', label: 'Advisory Verticals' },
     { value: 100, suffix: '%', label: 'Institutional Discretion' },
@@ -29,7 +29,7 @@ export const hero = {
 export const about = {
   eyebrow: 'About Us',
   heading: 'Empowering Visionary Growth',
-  body: 'Third Wave Advisory is a premier Strategic Advisory House. We guide elite enterprises through complex regulatory landscapes and financial ecosystems.',
+  body: 'Third Way Advisory is a premier Strategic Advisory House. We guide elite enterprises through complex regulatory landscapes and financial ecosystems.',
   mission: {
     heading: 'Our Mission',
     body: 'We accelerate corporate growth by bridging capital, compliance, and strategy.'
@@ -39,7 +39,7 @@ export const about = {
     body: 'We do not just advise; we execute with precision.'
   },
   why: {
-    heading: 'Why Third Wave?',
+    heading: 'Why Third Way?',
     points: [
       {
         title: 'Deep Expertise',
@@ -223,7 +223,7 @@ export const insights = {
 export const careers = {
   eyebrow: 'Careers',
   heading: 'Join Our Strategic Advisory House',
-  body: "At Third Wave Advisory, we tackle the market's most intricate corporate finance and statutory hurdles. We seek elite minds capable of delivering institutional-grade clarity.",
+  body: "At Third Way Advisory, we tackle the market's most intricate corporate finance and statutory hurdles. We seek elite minds capable of delivering institutional-grade clarity.",
   whyHeading: 'Why Build Your Career Here?',
   points: [
     { title: 'High-Impact Deals', body: 'Work on transformative cross-border transactions and infrastructure assets.' },
@@ -233,7 +233,7 @@ export const careers = {
   submit: {
     heading: 'Submit Your Credentials',
     body: 'Forward your professional dossier and curriculum vitae to',
-    email: 'careers@thirdwave.com'
+    email: 'careers@thirdway.com'
   }
 }
 
@@ -243,12 +243,12 @@ export const contact = {
   body: "Connect with our senior partners to discuss your enterprise's financial structuring, liaisoning, or regulatory challenges. We operate with complete discretion and institutional precision.",
   headquarters: {
     heading: 'Headquarters',
-    lines: ['Third Wave Advisory', '[Insert Business Park/Building Name]', '[Insert Floor & Suite Number]', 'Bengaluru, Karnataka, India']
+    lines: ['Third Way Advisory', '[Insert Business Park/Building Name]', '[Insert Floor & Suite Number]', 'Bengaluru, Karnataka, India']
   },
   channels: {
     heading: 'Direct Engagement Channels',
     items: [
-      { label: 'Institutional Inquiries', value: 'advisory@thirdwave.com', href: 'mailto:advisory@thirdwave.com' },
+      { label: 'Institutional Inquiries', value: 'advisory@thirdway.com', href: 'mailto:advisory@thirdway.com' },
       { label: 'Corporate Office', value: '[Insert Phone Number]', href: '#' }
     ]
   },
@@ -265,7 +265,7 @@ export const contact = {
 }
 
 export const footer = {
-  name: 'Third Wave Advisory',
+  name: 'Third Way Advisory',
   tagline: 'Bridging capital, compliance, and strategy for elite enterprises.',
   city: 'Bengaluru, Karnataka, India'
 }

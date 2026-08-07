@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom'
 import { hero } from '../data/content'
 import Counter from './Counter'
+import logo from '../assets/logo-white.png'
 
 export default function Hero() {
   return (
@@ -22,6 +24,13 @@ export default function Hero() {
       </div>
 
       <div className="relative container pb-24 pt-40">
+        <img
+          src={logo}
+          alt="Third Way Advisory"
+          className="h-20 w-auto mb-8 opacity-0 animate-fadeUp"
+          style={{ animationDelay: '0s' }}
+        />
+
         <p
           className="eyebrow text-gold-300 mb-6 opacity-0 animate-fadeUp"
           style={{ animationDelay: '0.15s' }}
@@ -47,18 +56,18 @@ export default function Hero() {
           className="mt-10 flex flex-wrap items-center gap-4 opacity-0 animate-fadeUp"
           style={{ animationDelay: '0.6s' }}
         >
-          <a
-            href={hero.ctaPrimary.href}
+          <Link
+            to={hero.ctaPrimary.href}
             className="inline-flex items-center justify-center bg-gold-400 text-navy text-[12px] tracking-widest2 uppercase px-8 py-4 font-semibold hover:bg-gold-300 transition-colors duration-300"
           >
             {hero.ctaPrimary.label}
-          </a>
-          <a
-            href={hero.ctaSecondary.href}
+          </Link>
+          <Link
+            to={hero.ctaSecondary.href}
             className="inline-flex items-center justify-center border border-white/30 text-white text-[12px] tracking-widest2 uppercase px-8 py-4 hover:border-gold-400 hover:text-gold-400 transition-colors duration-300"
           >
             {hero.ctaSecondary.label}
-          </a>
+          </Link>
         </div>
 
         <div
