@@ -9,6 +9,7 @@ export const nav = [
   { label: "Leadership", href: "/leadership" },
   { label: "Associates", href: "/associates" },
   { label: "Insights", href: "/insights" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const hero = {
@@ -287,6 +288,37 @@ export const insights = {
       ],
     },
   ],
+};
+
+export const contact = {
+  eyebrow: "Contact Us",
+  heading: "Begin the Conversation",
+  body: "Every engagement starts with a conversation held in confidence. Share your requirement below and a senior partner will respond directly — no intermediaries, no delay.",
+  headquarters: {
+    heading: "Headquarters",
+    lines: ["Third Way Advisory", "Bengaluru, Karnataka, India"],
+  },
+  channels: {
+    heading: "Direct Channel",
+    items: [
+      {
+        label: "Email",
+        href: "mailto:advisory@thirdway.com",
+        value: "advisory@thirdway.com",
+      },
+    ],
+  },
+  framework: {
+    heading: "Institutional Inquiry Form",
+    body: "For enterprise and institutional engagements, please detail your requirement below.",
+    domains: [
+      "General Inquiry",
+      "Financial Advisory",
+      "Liaisoning",
+      "Regulatory Stewardship",
+      "Acquisition & Institutional Transaction",
+    ],
+  },
 };
 
 export const footer = {

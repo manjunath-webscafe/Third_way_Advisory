@@ -9,6 +9,7 @@ import ApproachPage from "./pages/ApproachPage";
 import LeadershipPage from "./pages/LeadershipPage";
 import AssociatesPage from "./pages/AssociatesPage";
 import InsightsPage from "./pages/InsightsPage";
+import ContactPage from "./pages/ContactPage";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/leadership" element={<LeadershipPage />} />
           <Route path="/associates" element={<AssociatesPage />} />
           <Route path="/insights" element={<InsightsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
       <Footer />
