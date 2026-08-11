@@ -1,16 +1,14 @@
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import ScrollToTop from './components/ScrollToTop'
-import Home from './pages/Home'
-import AboutPage from './pages/AboutPage'
-import VerticalsPage from './pages/VerticalsPage'
-import ApproachPage from './pages/ApproachPage'
-import LeadershipPage from './pages/LeadershipPage'
-import AssociatesPage from './pages/AssociatesPage'
-import InsightsPage from './pages/InsightsPage'
-import CareersPage from './pages/CareersPage'
-import ContactPage from './pages/ContactPage'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
+import VerticalsPage from "./pages/VerticalsPage";
+import ApproachPage from "./pages/ApproachPage";
+import LeadershipPage from "./pages/LeadershipPage";
+import AssociatesPage from "./pages/AssociatesPage";
+import InsightsPage from "./pages/InsightsPage";
 
 export default function App() {
   return (
@@ -26,11 +24,9 @@ export default function App() {
           <Route path="/leadership" element={<LeadershipPage />} />
           <Route path="/associates" element={<AssociatesPage />} />
           <Route path="/insights" element={<InsightsPage />} />
-          <Route path="/careers" element={<CareersPage />} />
-          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
       <Footer />
     </div>
-  )
+  );
 }
