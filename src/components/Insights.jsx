@@ -41,7 +41,7 @@ export default function Insights() {
                 {cat.items.map((item) => (
                   <a
                     key={item.title}
-                    href="mailto:advisory@thirdway.com"
+                    href="mailto:thirdwayadvisory@gmail.com"
                     className="group flex items-start justify-between gap-4 border-t border-white/10 pt-5 first:border-t-0 first:pt-0"
                   >
                     <div>

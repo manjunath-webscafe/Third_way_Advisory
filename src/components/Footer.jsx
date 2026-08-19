@@ -36,7 +36,7 @@ export default function Footer() {
     },
     {
       icon: FaEnvelope,
-      href: "mailto:advisory@thirdway.com",
+      href: "mailto:thirdwayadvisory@gmail.com",
       label: "Email",
     },
   ];
@@ -61,6 +61,9 @@ export default function Footer() {
 
             <p className="mt-4 text-xs uppercase tracking-wide text-white/35">
               {footer.city}
+            </p>
+            <p className="mt-4 text-xs uppercase tracking-wide text-white/35">
+              {footer.mobile}
             </p>
 
             {/* Social Media */}
@@ -121,10 +124,10 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="mailto:advisory@thirdway.com"
+                  href="mailto:thirdwayadvisory@gmail.com"
                   className="text-sm hover:text-gold-400 transition-colors"
                 >
-                  advisory@thirdway.com
+                  thirdwayadvisory@gmail.com
                 </a>
               </li>
             </ul>

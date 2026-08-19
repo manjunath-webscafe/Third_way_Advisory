@@ -18,7 +18,7 @@ export const hero = {
   sub: "Third Way Advisory is a premier Strategic Advisory House. We guide elite enterprises through complex regulatory landscapes and financial ecosystems.",
   ctaPrimary: {
     label: "Partner With Us",
-    href: "mailto:advisory@thirdway.com",
+    href: "mailto:thirdwayadvisory@gmail.com",
   },
   ctaSecondary: { label: "Explore Our Verticals", href: "/verticals" },
   stats: [
@@ -300,7 +300,9 @@ export const contact = {
   body: "Every engagement starts with a conversation held in confidence. Share your requirement below and a senior partner will respond directly — no intermediaries, no delay.",
   headquarters: {
     heading: "Headquarters",
-    lines: ["Third Way Advisory", "Bengaluru, Karnataka, India"],
+    lines: [
+      "#32/1,PSR Marvel, Vinayaka Nagar, Bellari Main Road, Banglore-560024",
+    ],
   },
   channels: {
     heading: "Direct Channel",
@@ -329,4 +331,5 @@ export const footer = {
   name: "Third Way Advisory",
   tagline: "Bridging capital, compliance, and strategy for elite enterprises.",
   city: "Bengaluru, Karnataka, India",
+  mobile: 7760946201,
 };
