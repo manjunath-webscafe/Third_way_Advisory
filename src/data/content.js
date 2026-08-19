@@ -172,22 +172,26 @@ export const leadership = {
   heading: "Directed by Institutional Experience",
   people: [
     {
-      name: "[Partner Name]",
-      title: "Managing Partner, Financial Advisory & Strategy",
+      name: "Mr. Ravindra M Madhudi",
+      title: "Promoter & Executive Director",
       role: "Directs the firm's capital structuring and cross-border M&A strategy.",
       background:
-        "Over [X] years of investment banking and enterprise growth experience.",
+        "A Management Graduate with a specialization and affinity toward Marketing.",
       credentials:
-        "Former [Previous High-Profile Title] | [Degree/Institution].",
+        "Mr. Ravindra M Madhudi is a multi-faceted personality. In his career span of close to two decades, Mr. Madhudi has donned many hats, working in fields such as Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing. He is responsible for the supervision and growth of Marketing, Business Development, Design and Construction aspects of the business. Walking the talk, Mr. Madhudi is a constant source of inspiration to his colleagues and employees",
+      image:
+        "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127181/ravi_t3p8te.png",
     },
     {
-      name: "[Partner Name]",
-      title: "Partner, Regulatory Stewardship & Liaisoning",
-      role: "Leads institutional government relations and local compliance frameworks.",
+      name: "Mr. Hemang D Rawal",
+      title: "Promoter & Managing Director",
+      role: "Promoter & Managing Director.",
       background:
-        "Specialist in unlocking deadlocks with KRERA, BDA, BBMP, and KIADB.",
+        "One of the Promoters, Mr. Hemang D Rawal has been the Managing Director since inception",
       credentials:
-        "Advises prominent infrastructure funds and top-tier real estate groups.",
+        " A Chartered Accountant with over two decades of experience in the real estate sector, he initiated the Indian operations of a British Real Estate Service Company (the world’s 5th largest in its field).He has advised various multinational corporations (MNCs) and his expertise has helped navigate volatile times.He is also on the panel of The Economic Times Realty",
+      image:
+        "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127171/hemag_kxzqj9.png",
     },
   ],
 };
@@ -303,8 +307,8 @@ export const contact = {
     items: [
       {
         label: "Email",
-        href: "mailto:advisory@thirdway.com",
-        value: "advisory@thirdway.com",
+        href: "mailto:thirdwayadvisory@gmail.com",
+        value: "thirdwayadvisory@gmail.com",
       },
     ],
   },

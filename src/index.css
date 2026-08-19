@@ -85,3 +85,22 @@ select:focus-visible {
   border-radius: 999px;
   border: 2px solid #F4F6F9;
 }
+.leader-portrait {
+  position: relative;
+  aspect-ratio: 4/5;        /* consistent portrait shape */
+  margin: 0 0 28px;
+  display: flex;
+  align-items: stretch;     /* stretch image vertically */
+  justify-content: center;
+  background: var(--beige-soft);
+  border-radius: var(--radius);
+  overflow: hidden;         /* crop excess cleanly */
+}
+.leader-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* fills without distortion */
+  display: block;           /* removes inline gaps */
+  border-radius: var(--radius);
+}
+
