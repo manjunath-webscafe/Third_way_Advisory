@@ -173,23 +173,18 @@ export const leadership = {
   people: [
     {
       name: "Mr. Ravindra M Madhudi",
-      title: "Promoter & Executive Director",
-      role: "Directs the firm's capital structuring and cross-border M&A strategy.",
       background:
         "A Management Graduate with a specialization and affinity toward Marketing.",
       credentials:
-        "Mr. Ravindra M Madhudi is a multi-faceted personality. In his career span of close to two decades, Mr. Madhudi has donned many hats, working in fields such as Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing. He is responsible for the supervision and growth of Marketing, Business Development, Design and Construction aspects of the business. Walking the talk, Mr. Madhudi is a constant source of inspiration to his colleagues and employees",
+        "Mr. Hemang D. Rawal is a Chartered Accountant by qualification, he brings over three decades of experience in the real estate sector.He initiated the Indian operations of a British Real Estate Services Company, ranked among the world's largest in its field, and has advised several leading multinational corporations, including Godrej, SKF Bearings, Zee Telefilms, McDonald's and Deutsche Bank. His extensive industry expertise and business acumen have helped organizations navigate challenging and volatile market conditions. He is also on the panel of The Economic Times Realty, and his insights and articles have appeared in leading newspapers",
       image:
         "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127181/ravi_t3p8te.png",
     },
     {
       name: "Mr. Hemang D Rawal",
-      title: "Promoter & Managing Director",
-      role: "Promoter & Managing Director.",
-      background:
-        "One of the Promoters, Mr. Hemang D Rawal has been the Managing Director since inception",
+
       credentials:
-        " A Chartered Accountant with over two decades of experience in the real estate sector, he initiated the Indian operations of a British Real Estate Service Company (the world’s 5th largest in its field).He has advised various multinational corporations (MNCs) and his expertise has helped navigate volatile times.He is also on the panel of The Economic Times Realty",
+        " Ravindra M. Madhudi is a Management Graduate with a specialization and strong affinity for Marketing, and comes from a family with a long-standing background in real estate development. With close to three decades of professional experience, he has worked across diverse sectors including Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing.He oversees and drives key aspects of the business, including Marketing, Business Development, Design and Construction. His strong business acumen and industry experience have enabled him to build lasting relationships with several MNCs across India. A multifaceted leader, he is known for his ability to inspire, motivate and lead his colleagues and employees while contributing to the continued growth of the organization",
       image:
         "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127171/hemag_kxzqj9.png",
     },
